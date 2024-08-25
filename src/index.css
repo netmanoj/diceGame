@@ -1,0 +1,115 @@
+/* Styles for the Top component */
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-big-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.top-small-box {
+  width: 100px;
+  height: 100px;
+  background-color: #e0e0e0;
+  color: #333333;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.top-generate-button {
+  padding: 10px 20px;
+  background-color: #5c8374;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.top-generate-button:hover {
+  background-color: #9ec8b9;
+}
+
+.top-message {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #5c8374;
+}
+
+/* Styles for the Bottom component */
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.bottom-big-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.bottom-small-box {
+  width: 50px;
+  height: 50px;
+  background-color: #e0e0e0;
+  color: #333333;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.bottom-generate-button {
+  padding: 10px 20px;
+  background-color: #5c8374;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.bottom-generate-button:hover {
+  background-color: #9ec8b9;
+}
+
+.bottom-message {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #5c8374;
+}
